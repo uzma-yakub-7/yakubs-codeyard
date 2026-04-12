@@ -1,18 +1,1 @@
-# Classwork Due: Making a Website with Ai 
-View Site BookFlow at Loveable (Ai): https://id-preview--25a6ad45-9de5-4888-a34b-3e4467192f92.lovable.app/
-
-# Workflow (Features)
-###### Go to the Site Link
-###### Choose a Service
-###### Click Continue
-###### Choose date and time for the appointment
-###### Click Continue
-###### Fill up the form with your details
-###### Click Continue
-###### Click on Confirm Booking
-###### Receive a Booking Confirmation (Currently under construction)
-
-# How to use BookFlow: 
-###### Step-1 (Open the BookFlow Folder): https://github.com/uzma-yakub-7/yakubs-codeyard/tree/main/bookflow-appointment%20booking 
-###### Step-2 (Navigate to the src folder): https://github.com/uzma-yakub-7/yakubs-codeyard/tree/main/bookflow-appointment%20booking/src 
-###### Step-3 (Go to screenshot folder. Watch the video recording): https://github.com/uzma-yakub-7/yakubs-codeyard/blob/main/bookflow-appointment%20booking/src/screenshots 
+How to use BookFlow: https://github.com/uzma-yakub-7/yakubs-codeyard/blob/main/bookflow-appointment%20booking/README.md
