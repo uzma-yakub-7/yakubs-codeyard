@@ -1,4 +1,4 @@
-# SRS — Software Requirements Specification
+# SRS - Software Requirements Specification - NovaAssist
 
 ###### This document defines the software requirements for NovaAssist, an AI-powered marketing writing engine designed to help businesses generate social media captions and business ideas using conversational AI.
 
