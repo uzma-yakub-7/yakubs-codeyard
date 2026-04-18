@@ -164,6 +164,27 @@ Choose one of these two methods:
 
 ---
 
+## Pushing to GitHub
+- Open GitBash Terminal in VS Code. 
+  Tell Git who you are:
+  git config --global user.name "your-github-profile-username" . Enter
+  git config --global user.email "your-email-in-github" . Enter
+  Check if it worked: 
+  git config --global --list
+  Check repo status: 
+  git status
+  You should see your project files
+  Stage Files: 
+  git add .
+  Confirm Stagging: 
+  git status
+  You should now see:"Changes to be committed: (many files)"
+  Commit files: 
+  git commit -m "Added Files" . Enter
+  git push. Enter
+
+  
+
 ## Hosting Online (Streamlit Cloud)
 - Push your code to GitHub
 - Go to https://streamlit.io/cloud
