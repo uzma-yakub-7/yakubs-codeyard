@@ -2,7 +2,7 @@
 
 from langgraph.graph import StateGraph, START, END
 from typing import TypedDict, Annotated
-from langchain_core.messages import BaseMessage
+from langchain_core.messages import BaseMessage, SystemMessage
 from langchain_groq import ChatGroq
 from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.graph.message import add_messages
@@ -17,7 +17,6 @@ class NovaState(TypedDict):
     messages: Annotated[list[BaseMessage], add_messages]
 
 def nova_node(state: NovaState):
-    from langchain_core.messages import SystemMessage
     system_message = SystemMessage(content="""
 You are NovaAssist, an AI-powered marketing writing engine for businesses.
 Help users generate social media captions, business ideas, and professional replies.

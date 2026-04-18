@@ -183,7 +183,7 @@ Choose one of these two methods:
   git commit -m "Added Files" . Enter
   git push. Enter
 
-  
+ ---
 
 ## Hosting Online (Streamlit Cloud)
 - Push your code to GitHub
