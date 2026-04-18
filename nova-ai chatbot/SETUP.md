@@ -1,0 +1,187 @@
+# NovaAssist Writing Engine — Setup Guide
+
+nova-ai chatbot/
+├── venv/
+├── .env
+├── .gitignore
+├── langgraph_backend.py              
+├── langgraph_database_backend.py     
+├── langgraph_tool_backend.py         
+├── langgraph_mcp_backend.py          
+├── langraph_rag_backend.py           
+├── streamlit_frontend.py             
+├── streamlit_frontend_streaming.py   
+├── streamlit_frontend_database.py    
+├── streamlit_frontend_threading.py   
+├── streamlit_frontend_mcp.py         
+├── streamlit_rag_frontend.py         
+└── requirements.txt
+
+## Prerequisites
+Before starting, make sure you have the following installed on your PC.
+
+---
+
+## Install Git
+- Go to https://git-scm.com/install/windows
+
+
+## Install VS Code
+- Go to https://code.visualstudio.com
+- Download and install VS Code for Windows
+- Launch VS Code after installation
+
+---
+
+## Install Python
+- Go to https://www.python.org/downloads
+- Navigate to "Or  get the standalone installer for Python 3.14.4"|
+- Click on Python 3.14.4 Link. Only if you want to choose exactly where (which drive/folder) to install it.
+- Go to Downloads
+- Run the installer
+- Select Customize Installation 
+- During installation, check the box that says:
+  ✅ "Add Python to PATH"
+- This is very important — do not skip it!
+
+---
+
+## Restart Your PC
+- After installation, restart your PC
+- This makes sure PATH changes take effect
+
+---
+
+## Test Python in Terminal
+- Open Command Prompt
+- Type:
+  python --version
+- You should see something like: Python 3.11.x
+- If you see a version number, Python is installed correctly ✅
+
+---
+
+## Install Python Extension in VS Code
+- Open VS Code
+- Press Ctrl + Shift + X to open Extensions
+- Search for "Python"
+- Install the one by Microsoft ✅
+
+---
+
+## Set Up Your Project Folder
+Choose one of these two methods:
+
+### Method A — Create folder manually:
+- Open File Explorer
+- Choose a drive (e.g. E:)
+- Create a new folder (e.g. nova-ai chatbot)
+- Open VS Code
+- Go to File → Add Folder to Workspace
+- Select your folder
+- Open VS Code terminal (Ctrl + backtick)
+- Change terminal to Command Prompt
+- Type:
+  git init
+- Press Enter to initialize git
+- Type:
+  code .
+- Press Enter
+
+### Method B — Clone from GitHub:
+- Open VS Code terminal
+- Type:
+  git clone https://github.com/your-repo-link
+- Press Enter
+
+---
+
+## Get Your Free Groq API Key
+- Go to https://console.groq.com
+- Sign up with your Google account
+- Click "API Keys" on the left sidebar
+- Click "Create API Key"
+- Copy the key
+
+---
+
+## Create .env File
+- Inside your project folder, create a file called .env
+- Add this inside:
+  GROQ_API_KEY=paste_your_key_here
+- Save the file
+
+---
+
+## Create Virtual Environment
+- Open VS Code terminal ( Command Prompt)
+- Navigate to your project folder:
+  cd ai-chatbot
+- Create virtual environment:
+  python -m venv venv
+- Activate it:
+  venv\Scripts\activate
+- You should see (venv) in your terminal ✅
+- Keep this Terminal Open to Run and Test
+
+---
+
+## Install Required Packages
+- Make sure (venv) is active in your terminal
+- Run:
+  pip install langchain-groq. Press Enter.
+  pip install langgraph langchain langchain-groq streamlit python-dotenv duckduckgo-search langchain-community faiss-cpu pypdf langgraph-checkpoint-sqlite. Enter
+  pip install -U ddgs. Enter
+- Wait for installation to complete ✅
+
+---
+
+## Create .gitignore File
+- Inside your project folder, create a file called .gitignore
+- Add this inside:
+  venv/
+  .env
+  __pycache__/
+  *.db
+- Save the file
+
+---
+
+## Select Python Interpreter in VS Code
+- Press Ctrl + Shift + P
+- Type: Select Interpreter
+- Choose the one that says:
+  Python (venv) .\venv\Scripts\python.exe
+- This auto activates venv every time you open terminal ✅
+
+---
+
+## Run the App
+- In your terminal, run:
+  streamlit run streamlit_frontend_threading.py
+- Your browser will open automatically
+- NovaAssist Writing Engine is live! 🎉
+
+---
+
+## Hosting Online (Streamlit Cloud)
+- Push your code to GitHub
+- Go to https://streamlit.io/cloud
+- Sign in with GitHub
+- Click "New App"
+- Select your repo and file: streamlit_frontend_threading.py
+- Add your GROQ_API_KEY in the secrets section
+- Click Deploy 🚀
+
+---
+
+## Notes
+- Never share your .env file
+- Never push .env to GitHub
+- Always activate venv before running the app
+- nova_memory.db is auto created — no need to create manually
+
+## Got Stuck?
+- Feel free to reach out to uzmayakub27@gmail.com
+
+## Happy Coding 😊🚀
