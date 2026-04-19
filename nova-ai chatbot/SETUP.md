@@ -1,6 +1,7 @@
 # NovaAssist Writing Engine — Setup Guide
 
 nova-ai chatbot/
+
 ├── venv/
 ├── .env
 ├── .gitignore
