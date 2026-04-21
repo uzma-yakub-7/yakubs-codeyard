@@ -173,7 +173,7 @@ Choose one of these two methods:
 
 ## Screen Recording
 - If your PC has TWO ports (green + pink):
-    - Green = speakers/headphones(sound out)
+    - Green = speakers/headphones (sound out)
     - Pink = microphone (sound in).
 
 - Install Bandicam to your device:
