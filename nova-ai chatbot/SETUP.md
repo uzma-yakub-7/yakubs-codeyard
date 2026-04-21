@@ -139,7 +139,7 @@ Choose one of these two methods:
    - pip install langchain-groq. Press Enter.
    - pip install langgraph langchain langchain-groq streamlit python-dotenv duckduckgo-search langchain-community faiss-cpu pypdf langgraph-checkpoint-sqlite. Enter
    - pip install -U ddgs. Enter
-- Wait for installation to complete ✅
+- Wait for each installation to complete ✅
 
 ---
 
