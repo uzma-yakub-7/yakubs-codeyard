@@ -93,10 +93,13 @@ Choose one of these two methods:
 - Press Enter
 
 ### Method B — Clone from GitHub:
-- Open VS Code terminal
+- Open VS Code (Command Prompt terminal)
+- Change location. D: —> Press Enter
 - Type:
   git clone https://github.com/your-repo-link
 - Press Enter
+- GitHub repo will appear in VS code as folder. And folder will automatically be saved to the drive you choose.
+- Edit the files Or Create New File. Do not Forget to Save Your Files. 
 
 ---
 
@@ -188,6 +191,11 @@ Choose one of these two methods:
   git push. Enter
 
  ---
+
+ ## Adding Images to README.md
+ - <img src="images/demo.png" width="50%" />
+ 
+---
 
 ## Hosting Online (Streamlit Cloud)
 - Push your code to GitHub
