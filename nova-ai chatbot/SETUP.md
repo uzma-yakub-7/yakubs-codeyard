@@ -182,7 +182,7 @@ Choose one of these two methods:
   - Right-click 🔊 sound icon (bottom right)
   - Click Sound settings.
   - Under Input: Choose your microphone (e.g., “Headset Mic”)
-- Speak → check if bar moves ✅
+  - Speak → check if bar moves ✅
 
 - Setup Bandicam audio:
    - Open Bandicam
