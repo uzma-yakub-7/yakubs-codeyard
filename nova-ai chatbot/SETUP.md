@@ -198,7 +198,7 @@ Choose one of these two methods:
    - Go to Bandicam. Click REC. Speak
    - Stop and play → confirm voice recorded
  
-## Struggling with recording your voice? 
+## Struggling With Recording Your Voice? 
 - Here's an alternative:
      - Open your phone
      - Use Voice Recorder app (default app)
