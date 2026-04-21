@@ -103,7 +103,7 @@ Choose one of these two methods:
 
 ---
 
-## Get Groq API Key
+## Get API Key
 - Go to https://console.groq.com
 - Sign up with your Google account
 - Click "API Keys" on the left sidebar
