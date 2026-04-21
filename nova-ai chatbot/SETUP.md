@@ -146,10 +146,10 @@ Choose one of these two methods:
 ## Create .gitignore File
 - Inside your project folder, create a file called .gitignore
 - Add this inside:
-  venv/
-  .env
-  __pycache__/
-  *.db
+  - - venv/
+  - - .env
+  - - __pycache__/
+  - - *.db
 - Save the file
 
 ---
