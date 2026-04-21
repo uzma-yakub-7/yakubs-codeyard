@@ -193,7 +193,7 @@ Choose one of these two methods:
  ---
 
  ## Adding Images to README.md
- - <img src="images/demo.png" width="50%" />
+ - <img src="images/demo.png" width="50%" /> >
  
 ---
 
