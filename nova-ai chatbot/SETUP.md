@@ -146,10 +146,10 @@ Choose one of these two methods:
 ## Create .gitignore File
 - Inside your project folder, create a file called .gitignore
 - Add this inside:
-  - - venv/
-  - - .env
-  - - __pycache__/
-  - - *.db
+  - venv/
+  - .env
+  - __pycache__/
+  - *.db
 - Save the file
 
 ---
@@ -173,18 +173,18 @@ Choose one of these two methods:
 
 ## Pushing to GitHub
 - Open GitBash Terminal in VS Code. 
-- - Tell Git who you are:
-- - - git config --global user.name "your-github-profile-username" . Enter
-- - - git config --global user.email "your-email-in-github" . Enter
-- - Check if it worked:  git config --global --list
-- - Check repo status: git status
-- - You should see your project files
-- - Stage Files: git add .
-- - Confirm Stagging: git status
-- - You should now see:"Changes to be committed: (many files)"
-- - Commit files:
-- - - git commit -m "Added Files" . Enter
-- - - git push. Enter
+- Tell Git who you are:
+    - git config --global user.name "your-github-profile-username" . Enter
+    - git config --global user.email "your-email-in-github" . Enter
+- Check if it worked:  git config --global --list
+- Check repo status: git status
+- You should see your project files
+- Stage Files: git add .
+- Confirm Stagging: git status
+- You should now see:"Changes to be committed: (many files)"
+- Commit files:
+    - git commit -m "Added Files" . Enter
+    - git push. Enter
 
  ---
 
