@@ -193,7 +193,9 @@ Choose one of these two methods:
  ---
 
  ## Adding Images to README.md
- - ◀️ img src="images/demo.png" width="50%" / ▶️
+ - Inside your project create a folder named images.
+ - Upload images to that folder. Image type can be png,jpg or jpeg.
+ - Inside < />, type: img src="images/demo.png" width="50%"
  
 ---
 
