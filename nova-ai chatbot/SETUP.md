@@ -1,4 +1,4 @@
-# NovaAssist Writing Engine — Setup Guide
+# NovaAssist Writing Engine — Setup Guide for Windows
 
 nova-ai chatbot/
 
