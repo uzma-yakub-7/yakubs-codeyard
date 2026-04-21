@@ -136,9 +136,9 @@ Choose one of these two methods:
 ## Install Required Packages
 - Make sure (venv) is active in your terminal
 - Run:
-- - pip install langchain-groq. Press Enter.
-- - pip install langgraph langchain langchain-groq streamlit python-dotenv duckduckgo-search langchain-community faiss-cpu pypdf langgraph-checkpoint-sqlite. Enter
-- - pip install -U ddgs. Enter
+   - pip install langchain-groq. Press Enter.
+   - pip install langgraph langchain langchain-groq streamlit python-dotenv duckduckgo-search langchain-community faiss-cpu pypdf langgraph-checkpoint-sqlite. Enter
+   - pip install -U ddgs. Enter
 - Wait for installation to complete ✅
 
 ---
