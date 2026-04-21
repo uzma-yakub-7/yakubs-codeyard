@@ -171,6 +171,45 @@ Choose one of these two methods:
 
 ---
 
+## Screen Recording
+- If your PC has TWO ports (green + pink): Green = speakers/headphones(sound out),Pink = microphone (sound in).
+
+- Install Bandicam to your device:
+    - Plug in mic (pink port). 
+    - If using headset: Plug into green + pink ports (desktop).
+  
+- Set mic in Windows:
+  - Right-click 🔊 sound icon (bottom right)
+  - Click Sound settings.
+  - Under Input: Choose your microphone (e.g., “Headset Mic”)
+- Speak → check if bar moves ✅
+
+- Setup Bandicam audio:
+   - Open Bandicam
+   - Go to Video tab → Settings
+   - Under Sound: 
+       - Primary Sound Device → Speakers (your PC sound)
+       - Secondary Sound Device → Your Microphone
+   - Click OK
+ 
+- Test: 
+   - Go to Bandicam. Click REC. Speak
+   - Stop and play → confirm voice recorded
+ 
+## Struggling with recording your voice? 
+- Here's an alternative:
+     - Open your phone
+     - Use Voice Recorder app (default app)
+     - Open Bandicam
+     - Select screen recording mode and turn on screen recording
+     - Record your voice while watching your project on the Desktop Screen (Monitor).
+     - Save the screen recording and  audio file
+     - Go to Canva or Capcut. Upload Screen Recording (from your desktop). Upload audio file (from your phone). Adjust, edit either from Desktop or from your pc.
+     - Save the file:
+          - If edited from phone, save the file to Downloads. Go to GitHub. Select Your Repo. Press on 3 dots beside the green colored Code button. Press on Upload file. Press on Choose Your File. Navigate to your downloaded file and upload the file. Commit: Added file via upload. Press on Commit Changes. 
+         - If edited from the desktop, save it to your project folder. Go to VS Code. Open Terminal Command Prompt. Push the screen recording to Github
+
+
 ## Pushing to GitHub
 - Open GitBash Terminal in VS Code. 
 - Tell Git who you are:
@@ -190,10 +229,10 @@ Choose one of these two methods:
 
  ## Adding Images to README.md
  - Inside your project create a folder named images.
- - Upload images to that folder. Image type can be png,jpg or jpeg.
+ - Upload images to that folder. Image type can be png,jpg or jpeg. You can Also upload videos to that folder.
  - Inside < />, type: img src="images/demo.png" width="50%"
- 
----
+ - Save the file.
+
 
 ## Hosting Online (Streamlit Cloud)
 - Push your code to GitHub
