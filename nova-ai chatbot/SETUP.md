@@ -39,7 +39,7 @@ Before starting, make sure you have the following installed on your PC.
 
 ## Install Python
 - Go to https://www.python.org/downloads
-- Navigate to "Or  get the standalone installer for Python 3.14.4"|
+- Navigate to "Or  get the standalone installer for Python 3.14.4"
 - Click on Python 3.14.4 Link. Only if you want to choose exactly where (which drive/folder) to install it.
 - Go to Downloads
 - Run the installer
@@ -79,7 +79,7 @@ Choose one of these two methods:
 ### Method A — Create folder manually:
 - Open File Explorer
 - Choose a drive (e.g. E:)
-- Create a new folder (e.g. nova-ai chatbot)
+- Create a new folder (e.g. name-ai chatbot)
 - Open VS Code
 - Go to File → Add Folder to Workspace
 - Select your folder
