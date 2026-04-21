@@ -176,7 +176,9 @@ Choose one of these two methods:
     - Green = speakers/headphones (sound out)
     - Pink = microphone (sound in).
 
-- Install Bandicam to your device:
+- Install Screen Recorder
+    - Go to Browser. Search for Bandicam
+    - Install Bandicam to your device:
     - Plug in mic (pink port). 
     - If using headset: Plug into green + pink ports (desktop).
   
