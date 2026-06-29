@@ -5,7 +5,7 @@
 ###### NovaAssist is a web-based chatbot application built using LangGraph, Groq AI (API Key) and Streamlit. It allows users to interact with an AI assistant through a chat interface to generate marketing content instantly.
 
 # Screen Recording Voiceover
-###### https://github.com/uzma-yakub-7/yakubs-codeyard/blob/main/nova-ai%20chatbot/lv_0_20260419010605%20(1).mp4
+###### https://github.com/uzma-yakub-7/nova-assist/blob/main/nova-ai%20chatbot/lv_0_20260419010605%20(1).mp4
 
 # Future Advancements: 
 - <img src="images/homepage..png" width="400">
